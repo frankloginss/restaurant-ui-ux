@@ -13,7 +13,7 @@ const AboutUs = () => (
       <div className="app__aboutus-content_about">
         <h1 className="headtext__cormorant">About Us</h1>
         <img src={images.spoon} alt="about_spoon" className="spoon__img" />
-        <p className="p__opensans">Garnish is a fast growing brand. Restaurant offers a sophisticated dining experience to the customers. The menu takes you on a journey through the different regions of Africa subcontinent to present a magnificent combination of vibrant dishes   <p></p><br/></p>
+        <p className="p__opensans">Garnish is a fast growing brand. Restaurant offers a sophisticated dining experience to the customers. The menu takes you on a journey through the different regions of Africa subcontinent to present a magnificent combination of vibrant dishes<p></p></p>
         <button type="button" className="custom__button">Know More</button>
       </div>
 
