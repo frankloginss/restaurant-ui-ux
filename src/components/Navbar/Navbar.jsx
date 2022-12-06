@@ -21,7 +21,7 @@ const Navbar = () => {
       </ul>
       <div className="app__navbar-login">
         {/* <a href="#login" className="p__opensans">Log In / Registration</a> */}
-        <Link to='login' smooth={true} duration={500} className="p__opensans">Log In / Registration</Link>
+        <Link to='/' smooth={true} duration={500} className="p__opensans">Log In / Registration</Link>
         <div />
         {/* <a href="/" className="p__opensans">Book Table</a> */}
         <Link to='/' smooth={true} duration={500} className="p__opensans">Book Table</Link>

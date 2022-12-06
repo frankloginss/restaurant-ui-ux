@@ -1,8 +1,7 @@
-import React from 'react';
-
-import { SubHeading } from '../../components';
-import { images } from '../../constants';
-import './Chef.css';
+import React from "react";
+import { SubHeading } from "../../components";
+import { images } from "../../constants";
+import "./Chef.css";
 
 const Chef = () => (
   <div className="app__bg app__wrapper section__padding">
@@ -16,9 +15,18 @@ const Chef = () => (
       <div className="app__chef-content">
         <div className="app__chef-content_quote">
           <img src={images.quote} alt="quote_image" />
-          <p className="p__opensans">Warm and friendly atmosphere for each type of group, from families to corporate groups. .</p>
+          <p className="p__opensans">
+            Warm and friendly atmosphere for each type of group, from families
+            to corporate groups. .
+          </p>
         </div>
-        <p className="p__opensans"> Every trip to Garnish is intriguing, a team of friendly and hospitable staff takes care of the guests, concentrating on making sure that guests enjoy their time and experience the unique gastronomic adventure in the style of "Garnish".  </p>
+        <p className="p__opensans">
+          {" "}
+          Every trip to Garnish is intriguing, a team of friendly and hospitable
+          staff takes care of the guests, concentrating on making sure that
+          guests enjoy their time and experience the unique gastronomic
+          adventure in the style of "Garnish".{" "}
+        </p>
       </div>
 
       <div className="app__chef-sign">

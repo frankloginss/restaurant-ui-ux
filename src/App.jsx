@@ -1,8 +1,20 @@
-import React from 'react';
+import React from "react";
+import {
+  AboutUs,
+  Chef,
+  FindUs,
+  Footer,
+  Gallery,
+  Header,
+  Intro,
+  Laurels,
+  SpecialMenu,
+} from "./container";
+import { Navbar } from "./components";
+import "./App.css";
+import ScrollButton from "./components/ScrollButton/ScrollButton";
 
-import { AboutUs, Chef, FindUs, Footer, Gallery, Header, Intro, Laurels, SpecialMenu } from './container';
-import { Navbar } from './components';
-import './App.css';
+const show = "visible";
 
 const App = () => (
   <div>
@@ -16,6 +28,7 @@ const App = () => (
     <Gallery />
     <FindUs />
     <Footer />
+    <ScrollButton visibility={show} />
   </div>
 );
 
